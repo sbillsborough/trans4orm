@@ -1,6 +1,8 @@
 /* CSS RESETS / GLOBAL STYLING */
 :root {
   --button: #3ecb79;
+  --header-background: #22272e;
+  --table-head: #36bf6f;
 }
 
 html,
@@ -10,15 +12,15 @@ body {
   height: 100%;
   width: 100%;
   font-family: "Roboto", sans-serif;
-  font-size: 0.8rem;
 }
 
 /* Main Styling */
 
 header {
-  background: #22272e;
+  background: var(--header-background);
   padding: 24px 64px;
   max-width: 1440px;
+  font-size: 0.7rem;
 }
 
 table {
@@ -27,7 +29,7 @@ table {
 }
 
 th {
-  color: #36bf6f;
+  color: var(--table-head);
 }
 
 td {
