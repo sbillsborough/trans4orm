@@ -41,20 +41,27 @@ td {
 
 .nav-container {
   display: flex;
-  justify-content: space-between;
-  align-items: center;
+  justify-content: space-around;
   background: var(--main-background);
   font-size: 0.7rem;
 }
 
 nav {
-  width: 1312px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 89%;
+  color: #fff;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
 }
 
 .nav-container table {
   display: inline-block;
   vertical-align: middle;
-  width: 300px;
 }
 
 .nav-container th {
