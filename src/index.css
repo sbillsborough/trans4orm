@@ -2,6 +2,7 @@
 :root {
   --button: #3ecb79;
   --header-background: #22272e;
+  --main-background: #0b151d;
   --table-head: #36bf6f;
 }
 
@@ -34,4 +35,44 @@ th {
 
 td {
   color: #fff;
+}
+
+/* NavBar Styling */
+
+.nav-container {
+  display: flex;
+  justify-content: space-around;
+  background: var(--main-background);
+  font-size: 0.7rem;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 89%;
+  color: #fff;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.nav-container table {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.nav-container th {
+  color: #fff;
+}
+
+.nav-container button {
+  background: var(--button);
+  color: #fff;
+  border: none;
+  border-radius: 25px;
+  width: 120px;
+  height: 40px;
 }
