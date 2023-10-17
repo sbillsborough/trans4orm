@@ -1,8 +1,8 @@
 function NavBar() {
   return (
     <div className="nav-container">
+      <h1 id="logo">T4</h1>
       <nav>
-        <a href="#">T4</a>
         <a href="#">Home</a>
         <a href="#">About Us</a>
         <a href="#">Our Pt's</a>
