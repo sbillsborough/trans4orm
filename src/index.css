@@ -11,7 +11,7 @@ body {
   padding: 0;
   width: 1440px;
   height: 100%;
-  font-family: "Roboto", sans-serif;
+  font-family: sans-serif;
   background: var(--main-background);
 }
 
@@ -21,7 +21,8 @@ header {
   background: var(--header-background);
   padding: 24px 64px;
   max-width: 1440px;
-  font-size: 0.7rem;
+  font-size: 1rem;
+  font-weight: 400;
 }
 
 table {
@@ -43,7 +44,7 @@ td {
   display: flex;
   justify-content: space-around;
   background: var(--main-background);
-  font-size: 0.7rem;
+  font-size: 1rem;
 }
 
 nav {
@@ -97,9 +98,14 @@ nav ul li a {
 
 .nav-container th {
   color: #fff;
+  width: 127px;
+  height: 18px;
+  font-size: 0.8rem;
+  font-weight: 700;
+  line-height: 17.6px;
 }
 
-.nav-container button {
+button {
   background: var(--button);
   color: #fff;
   border: none;
@@ -119,6 +125,13 @@ nav ul li a {
   background-image: url(./resources/img/Rectangle2.png);
   height: 750px;
   width: 1400px;
-  object-fit: contain;
   margin: 0 auto;
+}
+
+.image-text {
+  position: absolute;
+  width: 866px;
+  height: 474px;
+  top: 373px;
+  left: 70px;
 }
