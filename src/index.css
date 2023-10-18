@@ -11,7 +11,7 @@ body {
   padding: 0;
   width: 1440px;
   height: 100%;
-  font-family: "Roboto", sans-serif;
+  font-family: sans-serif;
   background: var(--main-background);
 }
 
@@ -21,7 +21,7 @@ header {
   background: var(--header-background);
   padding: 24px 64px;
   max-width: 1440px;
-  font-size: 0.7rem;
+  font-size: 1rem;
 }
 
 table {
@@ -43,7 +43,7 @@ td {
   display: flex;
   justify-content: space-around;
   background: var(--main-background);
-  font-size: 0.7rem;
+  font-size: 1rem;
 }
 
 nav {
@@ -97,6 +97,9 @@ nav ul li a {
 
 .nav-container th {
   color: #fff;
+  width: 127px;
+  height: 18px;
+  font-weight: 700;
 }
 
 .nav-container button {
