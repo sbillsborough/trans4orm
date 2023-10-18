@@ -22,6 +22,7 @@ header {
   padding: 24px 64px;
   max-width: 1440px;
   font-size: 1rem;
+  font-weight: 400;
 }
 
 table {
@@ -99,10 +100,12 @@ nav ul li a {
   color: #fff;
   width: 127px;
   height: 18px;
+  font-size: 0.8rem;
   font-weight: 700;
+  line-height: 17.6px;
 }
 
-.nav-container button {
+button {
   background: var(--button);
   color: #fff;
   border: none;
@@ -122,6 +125,13 @@ nav ul li a {
   background-image: url(./resources/img/Rectangle2.png);
   height: 750px;
   width: 1400px;
-  object-fit: contain;
   margin: 0 auto;
+}
+
+.image-text {
+  position: absolute;
+  width: 866px;
+  height: 474px;
+  top: 373px;
+  left: 70px;
 }
