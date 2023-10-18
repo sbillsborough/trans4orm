@@ -1,3 +1,6 @@
+/* Imported fonts */
+@import url("https://fonts.googleapis.com/css2?family=Anton&display=swap");
+
 /* CSS RESETS / GLOBAL STYLING */
 :root {
   --button: #d84949;
@@ -65,7 +68,7 @@ header table {
 
 header table tr:first-child {
   display: flex;
-  justify-content: start;
+  justify-content: flex-start;
   align-items: center;
   width: 537px;
   height: 26px;
@@ -73,7 +76,7 @@ header table tr:first-child {
 
 header table tr:last-child {
   display: flex;
-  justify-content: end;
+  justify-content: flex-end;
   align-items: center;
   width: 228px;
   height: 26px;
@@ -112,6 +115,8 @@ button {
   border-radius: 34px;
   width: 167px;
   height: 50px;
+  padding: 16px 32px;
+  gap: 106px;
 }
 
 .logo {
@@ -132,6 +137,45 @@ button {
   position: absolute;
   width: 866px;
   height: 474px;
-  top: 373px;
+  top: 268px;
+  left: 64px;
+}
+
+.image-text p:first-child {
+  width: 254px;
+  height: 29px;
+  font-weight: 500;
+  font-size: 1.3rem;
+  color: hsl(0, 0%, 40%);
+  line-height: 28.79px;
+}
+
+.image-text p:nth-child(2) {
+  font-family: "Anton", sans-serif;
+  color: #fff;
+  font-size: 100px;
+  font-weight: 400;
+  width: 866px;
+  height: 199px;
+  top: 424px;
   left: 70px;
+  line-height: 100px;
+  margin: 0;
+}
+
+.image-text p:nth-child(3) {
+  width: 473px;
+  height: 110px;
+  top: 655px;
+  left: 70px;
+  font-family: "Satoshi", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 22px;
+  text-align: left;
+  color: hsla(0, 0%, 100%, 0.8);
+}
+
+.image-text button {
+  margin: 30px 0;
 }
