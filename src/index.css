@@ -10,9 +10,10 @@ html,
 body {
   margin: 0;
   padding: 0;
-  width: 100vw;
+  width: 1440px;
   height: 100%;
   font-family: "Roboto", sans-serif;
+  background: var(--main-background);
 }
 
 /* Main Styling */
@@ -84,4 +85,5 @@ a {
   height: 750px;
   width: 1400px;
   object-fit: contain;
+  margin: 0 auto;
 }
