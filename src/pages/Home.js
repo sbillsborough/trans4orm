@@ -1,3 +1,6 @@
+import logo from "../resources/img/logo.png";
+import hero from "../resources/img/Rectangle2.png";
+
 function Home() {
   return (
     <>
@@ -17,7 +20,7 @@ function Home() {
       </header>
       <div className="nav-container">
         <nav>
-          <h1 id="logo">T4</h1>
+          <img src={logo} className="logo" alt="T4 Logo" />
           <a href="#">Home</a>
           <a href="#">About Us</a>
           <a href="#">Our Pt's</a>
@@ -34,7 +37,7 @@ function Home() {
           </table>
         </nav>
       </div>
-      <h1>Hello World!</h1>;
+      <div className="hero"></div>
     </>
   );
 }
