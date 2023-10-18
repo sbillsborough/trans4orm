@@ -1,9 +1,9 @@
 /* CSS RESETS / GLOBAL STYLING */
 :root {
-  --button: #3ecb79;
+  --button: #f66146;
   --header-background: #22272e;
   --main-background: #0b151d;
-  --table-head: #36bf6f;
+  --table-head: #bf4b36;
 }
 
 html,
