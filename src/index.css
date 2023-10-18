@@ -51,8 +51,32 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 89%;
+  width: 1312px;
   color: #fff;
+}
+
+header table {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* width: 1440px; */
+  margin: 0 auto;
+}
+
+header table tr:first-child {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  width: 537px;
+  height: 26px;
+}
+
+header table tr:last-child {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  width: 228px;
+  height: 26px;
 }
 
 a {
