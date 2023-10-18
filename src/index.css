@@ -78,7 +78,14 @@ header table tr:last-child {
   height: 26px;
 }
 
-a {
+nav ul {
+  display: flex;
+  justify-content: space-between;
+  width: 759px;
+  list-style-type: none;
+}
+
+nav ul li a {
   text-decoration: none;
   color: #e7e4e5;
 }
