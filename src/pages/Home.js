@@ -1,5 +1,4 @@
 import logo from "../resources/img/logo.png";
-import hero from "../resources/img/Rectangle2.png";
 
 function Home() {
   return (
@@ -23,22 +22,22 @@ function Home() {
           <img src={logo} className="logo" alt="T4 Logo" />
           <ul>
             <li>
-              <a href="#">Home</a>
+              <a href="home">Home</a>
             </li>
             <li>
-              <a href="#">About Us</a>
+              <a href="about">About Us</a>
             </li>
             <li>
-              <a href="#">Our Pt's</a>
+              <a href="ourpt">Our Pt's</a>
             </li>
             <li>
-              <a href="#">Classes & Timetable</a>
+              <a href="classes">Classes & Timetable</a>
             </li>
             <li>
-              <a href="#">Blogs</a>
+              <a href="blogs">Blogs</a>
             </li>
             <li>
-              <a href="#">Contact Us</a>
+              <a href="contact">Contact Us</a>
             </li>
           </ul>
           <table>
