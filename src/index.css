@@ -1,9 +1,8 @@
 /* CSS RESETS / GLOBAL STYLING */
 :root {
-  --button: #f66146;
+  --button: #d84949;
   --header-background: #22272e;
   --main-background: #0b151d;
-  --table-head: #bf4b36;
 }
 
 html,
@@ -31,7 +30,7 @@ table {
 }
 
 th {
-  color: var(--table-head);
+  color: var(--button);
 }
 
 td {
@@ -81,7 +80,7 @@ header table tr:last-child {
 
 a {
   text-decoration: none;
-  color: #fff;
+  color: #e7e4e5;
 }
 
 .nav-container table {
