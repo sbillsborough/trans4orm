@@ -21,12 +21,26 @@ function Home() {
       <div className="nav-container">
         <nav>
           <img src={logo} className="logo" alt="T4 Logo" />
-          <a href="#">Home</a>
-          <a href="#">About Us</a>
-          <a href="#">Our Pt's</a>
-          <a href="#">Classes & Timetable</a>
-          <a href="#">Blogs</a>
-          <a href="#">Contact Us</a>
+          <ul>
+            <li>
+              <a href="#">Home</a>
+            </li>
+            <li>
+              <a href="#">About Us</a>
+            </li>
+            <li>
+              <a href="#">Our Pt's</a>
+            </li>
+            <li>
+              <a href="#">Classes & Timetable</a>
+            </li>
+            <li>
+              <a href="#">Blogs</a>
+            </li>
+            <li>
+              <a href="#">Contact Us</a>
+            </li>
+          </ul>
           <table>
             <tr>
               <th>Contact us today</th>
