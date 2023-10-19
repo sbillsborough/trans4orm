@@ -76,6 +76,7 @@ function Home() {
         </p>
         <button>Sign up today</button>
       </section>
+      <div className="made-img"></div>
     </>
   );
 }

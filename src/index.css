@@ -237,3 +237,12 @@ section.intro {
   margin: 0 auto;
   color: var(--paragraph);
 }
+
+/* Made Image Section */
+
+.made-img {
+  background-image: url(./resources/img/Rectangle28.png);
+  width: 1312px;
+  height: 539px;
+  margin: 0 auto;
+}
