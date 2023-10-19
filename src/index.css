@@ -6,6 +6,8 @@
   --button: #d84949;
   --header-background: #22272e;
   --main-background: #0b151d;
+  --achieve-slogan: #ffffff66;
+  --paragraph: #ffffffcc;
 }
 
 html,
@@ -147,7 +149,7 @@ button {
   height: 29px;
   font-weight: 500;
   font-size: 1.3rem;
-  color: hsl(0, 0%, 40%);
+  color: var(--achieve-slogan);
   line-height: 28.79px;
 }
 
@@ -174,7 +176,7 @@ button {
   font-weight: 400;
   line-height: 22px;
   text-align: left;
-  color: hsla(0, 0%, 100%, 0.8);
+  color: var(--paragraph);
 }
 
 .image-text button {
@@ -184,8 +186,54 @@ button {
 /* Intro Section Styling */
 
 section.intro {
-  width: 665px;
+  display: inline-flex;
+  flex-direction: column;
+  gap: 24px;
+  align-items: center;
+  width: 100%;
   height: 365px;
   margin: 100px auto;
   text-align: center;
+}
+
+.intro h5 {
+  width: 191px;
+  height: 22px;
+  font-weight: 500;
+  line-height: 21.6px;
+  color: var(--achieve-slogan);
+  margin: 0 auto;
+}
+
+.intro p:nth-child(2) {
+  width: 665px;
+  height: 140px;
+  font-family: "Anton", sans-serif;
+  font-weight: 400;
+  font-size: 60px;
+  line-height: 70px;
+  color: #fff;
+  letter-spacing: 2.4px;
+  text-transform: uppercase;
+  margin: 0 auto;
+}
+
+.intro p:nth-child(3) {
+  width: 570px;
+  height: 29px;
+  font-family: "Satoshi", sans-serif;
+  font-weight: 500;
+  font-size: 1.3rem;
+  line-height: 28.79px;
+  margin: 0 auto;
+  color: #fff;
+}
+
+.intro p:nth-child(4) {
+  width: 570px;
+  height: 44px;
+  font-family: "Satoshi", sans-serif;
+  line-height: 21.6px;
+  margin: 0 auto;
+  color: var(--paragraph);
 }
