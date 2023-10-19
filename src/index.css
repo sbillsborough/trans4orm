@@ -246,3 +246,12 @@ section.intro {
   height: 539px;
   margin: 0 auto;
 }
+
+/* Pitch Section Styling */
+
+.pitch {
+  background-image: url(./resources/img/Rectangle27.png);
+  width: 1400px;
+  height: 600px;
+  margin: 100px auto;
+}

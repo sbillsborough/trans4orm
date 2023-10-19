@@ -77,6 +77,7 @@ function Home() {
         <button>Sign up today</button>
       </section>
       <div className="made-img"></div>
+      <div className="pitch"></div>
     </>
   );
 }
