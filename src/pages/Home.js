@@ -64,6 +64,17 @@ function Home() {
           <button>Sign up today</button>
         </div>
       </div>
+      <section className="intro">
+        <p>Achieve Your Fitness Goal.</p>
+        <p>FITNESS SHOULD BE ACCESSIBLE TO EVERYONE.</p>
+        <p>We are dedicated to helping you achieve your fitness goals.</p>
+        <p>
+          We all have our own reasons for going to the gym, however we all have
+          one thing is common, we want to improve and be the best version of
+          ourselves.
+        </p>
+        <button>Sign up today</button>
+      </section>
     </>
   );
 }
