@@ -3,6 +3,7 @@ import sparkles from "../resources/img/sparkles.png";
 function Pitch() {
   return (
     <div className="pitch-container">
+      <div className="vector-img"></div>
       <h3>What sets us apart from the rest?</h3>
       <div className="pitch-cards-container">
         <div className="pitch-card">
