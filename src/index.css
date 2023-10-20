@@ -256,6 +256,15 @@ section.intro {
   margin: 100px auto;
 }
 
+.vector-img {
+  position: absolute;
+  background-image: url(./resources/img/Group7vectors.png);
+  width: 633.04px;
+  height: 542.95px;
+  top: 2116px;
+  left: 785.96px;
+}
+
 .pitch-container h3 {
   position: absolute;
   width: 601px;
