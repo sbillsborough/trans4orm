@@ -256,7 +256,7 @@ section.intro {
   margin: 100px auto;
 }
 
-.pitch-container h2 {
+.pitch-container h3 {
   position: absolute;
   width: 601px;
   height: 140px;
@@ -264,9 +264,44 @@ section.intro {
   left: 68px;
   color: #fff;
   font-family: "Anton", sans-serif;
-  font-size: 60px;
+  font-size: 3.75rem;
   font-weight: 400;
   line-height: 70px;
   letter-spacing: 2.4px;
   text-transform: uppercase;
+}
+
+.pitch-cards-container {
+  display: flex;
+  position: absolute;
+  width: 1312px;
+  height: 163px;
+  top: 2366px;
+  left: 64px;
+}
+
+.pitch-card {
+  width: 316px;
+  height: 161px;
+}
+
+.pitch-card h4 {
+  width: 316px;
+  height: 29px;
+  font-family: "Satoshi", sans-serif;
+  font-weight: 500;
+  font-size: 1.6rem;
+  line-height: 28.6px;
+  color: #fff;
+}
+
+.pitch-card p {
+  width: 316px;
+  height: 46px;
+  opacity: 70%;
+  font-family: "Satoshi", sans-serif;
+  font-weight: 500;
+  font-size: 0.9rem;
+  line-height: 22.5px;
+  color: #fff;
 }
