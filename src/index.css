@@ -249,9 +249,24 @@ section.intro {
 
 /* Pitch Section Styling */
 
-.pitch {
+.pitch-container {
   background-image: url(./resources/img/Rectangle27.png);
   width: 1400px;
   height: 600px;
   margin: 100px auto;
+}
+
+.pitch-container h2 {
+  position: absolute;
+  width: 601px;
+  height: 140px;
+  top: 2104px;
+  left: 68px;
+  color: #fff;
+  font-family: "Anton", sans-serif;
+  font-size: 60px;
+  font-weight: 400;
+  line-height: 70px;
+  letter-spacing: 2.4px;
+  text-transform: uppercase;
 }
