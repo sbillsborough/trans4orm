@@ -185,7 +185,7 @@ button {
 
 /* Intro Section Styling */
 
-section.intro {
+.intro {
   display: inline-flex;
   flex-direction: column;
   gap: 24px;
@@ -194,6 +194,28 @@ section.intro {
   height: 365px;
   margin: 100px auto;
   text-align: center;
+}
+
+.vector-img-group3 {
+  position: absolute;
+  background-image: url(./resources/img/Group3vectors.png);
+  width: 466.47px;
+  height: 485.96px;
+  top: 836px;
+  left: 976px;
+
+  z-index: -1;
+}
+
+.vector-img-group4 {
+  position: absolute;
+  background-image: url(./resources/img/Group4vectors.png);
+  width: 466.47px;
+  height: 485.96px;
+  top: 1170px;
+  left: 0;
+
+  z-index: -1;
 }
 
 .intro h5 {
@@ -260,9 +282,10 @@ section.intro {
   position: absolute;
   background-image: url(./resources/img/Group7vectors.png);
   width: 633.04px;
-  height: 542.95px;
+  height: 540.95px;
   top: 2116px;
   left: 785.96px;
+  opacity: 60%;
 }
 
 .pitch-container h3 {
