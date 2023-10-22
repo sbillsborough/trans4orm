@@ -6,6 +6,7 @@ import Intro from "./components/Intro";
 import MadeImg from "./components/MadeImg";
 import Pitch from "./components/Pitch";
 import OwnTime from "./components/OwnTime";
+import OffersCards from "./components/offersCards";
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
       <MadeImg />
       <Pitch />
       <OwnTime />
+      <OffersCards />
     </>
   );
 }
