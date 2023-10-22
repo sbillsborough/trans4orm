@@ -279,7 +279,7 @@ button {
   background-image: url(./resources/img/Rectangle27.png);
   width: 1400px;
   height: 600px;
-  margin: 100px auto;
+  margin: 100px auto 0 auto;
 }
 
 .vector-img {
