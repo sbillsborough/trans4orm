@@ -341,3 +341,18 @@ button {
   line-height: 22.5px;
   color: #fff;
 }
+
+/* Offers Cards Section Styling */
+
+.offers-cards-container {
+}
+
+.offers-cards-40 {
+  width: 427px;
+  height: 800px;
+  top: 3293px;
+  left: 62px;
+  border-radius: 32px;
+  border: 1px solid #fff;
+  background-image: url(./resources/img/OffersCards40.png);
+}
