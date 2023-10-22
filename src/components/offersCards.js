@@ -1,8 +1,8 @@
 function OffersCards() {
   return (
-    <>
-      <h1>hello world</h1>
-    </>
+    <div className="offers-cards-container">
+      <div className="offers-cards-40"></div>
+    </div>
   );
 }
 
