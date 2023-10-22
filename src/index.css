@@ -65,7 +65,6 @@ header table {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  /* width: 1440px; */
   margin: 0 auto;
 }
 
@@ -185,7 +184,8 @@ button {
 
 /* Intro Section Styling */
 
-.intro {
+.intro,
+.owntime {
   display: inline-flex;
   flex-direction: column;
   gap: 24px;
@@ -218,7 +218,8 @@ button {
   z-index: -1;
 }
 
-.intro h5 {
+.intro h5,
+.owntime h5 {
   width: 191px;
   height: 22px;
   font-weight: 500;
@@ -227,7 +228,8 @@ button {
   margin: 0 auto;
 }
 
-.intro p:nth-child(2) {
+.intro p:nth-child(2),
+.owntime p:nth-child(2) {
   width: 665px;
   height: 140px;
   font-family: "Anton", sans-serif;
@@ -240,7 +242,8 @@ button {
   margin: 0 auto;
 }
 
-.intro p:nth-child(3) {
+.intro p:nth-child(3),
+.owntime p:nth-child(3) {
   width: 570px;
   height: 29px;
   font-family: "Satoshi", sans-serif;
@@ -251,7 +254,8 @@ button {
   color: #fff;
 }
 
-.intro p:nth-child(4) {
+.intro p:nth-child(4),
+.owntime p:nth-child(4) {
   width: 570px;
   height: 44px;
   font-family: "Satoshi", sans-serif;
