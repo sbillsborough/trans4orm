@@ -5,6 +5,7 @@ import Hero from "./components/Hero";
 import Intro from "./components/Intro";
 import MadeImg from "./components/MadeImg";
 import Pitch from "./components/Pitch";
+import OwnTime from "./components/OwnTime";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
       <Intro />
       <MadeImg />
       <Pitch />
+      <OwnTime />
     </>
   );
 }
