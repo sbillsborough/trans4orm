@@ -289,7 +289,7 @@ button {
   height: 540.95px;
   top: 2116px;
   left: 785.96px;
-  opacity: 60%;
+  /* opacity: 60%; */
 }
 
 .pitch-container h3 {
@@ -334,7 +334,7 @@ button {
 .pitch-card p {
   width: 316px;
   height: 46px;
-  opacity: 70%;
+  /* opacity: 70%; */
   font-family: "Satoshi", sans-serif;
   font-weight: 500;
   font-size: 0.9rem;
