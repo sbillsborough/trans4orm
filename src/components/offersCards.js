@@ -129,6 +129,14 @@ function OffersCards() {
           </div>
         </div>
       </div>
+      <table class="card-table">
+        <tr>
+          <th>Opening hours: Mon - Fri:</th>
+          <td>05:00- 22:00</td>
+          <th>Sat-Sun:</th>
+          <td>08:00- 18:00</td>
+        </tr>
+      </table>
       <div className="vector-img-group10"></div>
     </>
   );
