@@ -57,8 +57,8 @@ function OffersCards() {
               <span>Annually</span>
             </div>
             <span>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do
-              enum vulpur.
+              Save an amazing <span class="ten-percent">10%</span> when you sign
+              up to our annual package.
             </span>
             <h5>What you get!</h5>
             <div className="tick-container">

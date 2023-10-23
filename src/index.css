@@ -369,6 +369,10 @@ button {
   background-image: url(./resources/img/OffersCards38.png);
 }
 
+.offers-cards-38 span .ten-percent {
+  color: var(--button);
+}
+
 .offers-cards-39 {
   width: 427px;
   height: 800px;
