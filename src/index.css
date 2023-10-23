@@ -344,6 +344,9 @@ button {
 
 .offers-cards-container {
   display: flex;
+  margin: 0 auto;
+  justify-content: space-between;
+  width: 1400px;
 }
 
 .offers-cards-40 {
@@ -374,4 +377,14 @@ button {
   border-radius: 32px;
   border: 1px solid #fff;
   background-image: url(./resources/img/OffersCards39.png);
+}
+
+.vector-img-group10 {
+  position: absolute;
+  width: 458.47px;
+  height: 485.96px;
+  top: 3826.96px;
+  left: -35px;
+  background-image: url(./resources/img/Group10vectors.png);
+  z-index: -1;
 }
