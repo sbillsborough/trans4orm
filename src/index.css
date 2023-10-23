@@ -369,6 +369,10 @@ button {
   background-image: url(./resources/img/OffersCards38.png);
 }
 
+.offers-cards-38 span .ten-percent {
+  color: var(--button);
+}
+
 .offers-cards-39 {
   width: 427px;
   height: 800px;
@@ -393,6 +397,13 @@ button {
   display: flex;
   justify-content: space-around;
   align-items: center;
+}
+
+.offers-cards-38 .monthly-offer-heading-container h4,
+.offers-cards-39 .monthly-offer-heading-container h4 {
+  text-align: left;
+  width: 100%;
+  margin-left: 25px;
 }
 
 .monthly-offer-heading-container h4 {
@@ -425,18 +436,24 @@ button {
   top: 3336px;
   left: 49px;
   gap: 10px;
-  width: 380px;
+  width: 280px;
   height: 81px;
 }
 
 .price-container h4 {
-  width: 91px;
+  width: 191px;
   height: 51px;
   font-family: "Anton", sans-serif;
   font-weight: 400;
   font-size: 2.1rem;
   line-height: 50.82px;
   color: #fff;
+  margin: 40px 0 0 0;
+}
+
+.offers-cards-39 .price-container {
+  width: 100%;
+  gap: 2px;
 }
 
 .offers-cards-container h5 {
@@ -457,6 +474,14 @@ button {
   top: 3317px;
   left: 49px;
   gap: 10px;
+}
+
+.offers-cards-38 .access-container {
+  left: 532px;
+}
+
+.offers-cards-39 .access-container {
+  left: 1016px;
 }
 
 .access-container span {
@@ -503,6 +528,14 @@ button {
   position: absolute;
   top: 3962px;
   left: 62px;
+}
+
+.offers-cards-38 .button-container {
+  left: 545px;
+}
+
+.offers-cards-39 .button-container {
+  left: 1029px;
 }
 
 .button-container button {
