@@ -388,3 +388,32 @@ button {
   background-image: url(./resources/img/Group10vectors.png);
   z-index: -1;
 }
+
+.monthly-offer-heading-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.monthly-offer-heading-container h4 {
+  font-family: "Anton", sans-serif;
+  font-weight: 400;
+  font-size: 1.9rem;
+  line-height: 46.3px;
+  width: 231px;
+  height: 46px;
+  color: #fff;
+}
+
+.monthly-offer-heading-container button {
+  width: 83px;
+  height: 39px;
+  padding: 8px 16px;
+  border: double 1px transparent;
+  border-radius: 80px;
+  background-image: linear-gradient(#22272e, #22272e),
+    radial-gradient(circle at top left, #fff, var(--button));
+  background-origin: border-box;
+  background-clip: padding-box, border-box;
+  backdrop-filter: blur(25px);
+}
