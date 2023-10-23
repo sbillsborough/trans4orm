@@ -41,6 +41,10 @@ function OffersCards() {
               <span>Access To 2 classes a month</span>
             </div>
           </div>
+          <div className="button-container">
+            <button>View more on price</button>
+            <a href="view">Compare Package</a>
+          </div>
         </div>
         <div className="offers-cards-38"></div>
         <div className="offers-cards-39"></div>

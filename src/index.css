@@ -495,3 +495,23 @@ button {
   line-height: 19.2px;
   color: #babdbf;
 }
+
+.button-container {
+  display: inline-flex;
+  align-items: center;
+  gap: 24px;
+  position: absolute;
+  top: 3962px;
+  left: 62px;
+}
+
+.button-container button {
+  width: 189px;
+}
+
+.button-container a {
+  color: #fff;
+  width: 134px;
+  height: 18px;
+  font-family: "Satoshi", sans-serif;
+}
