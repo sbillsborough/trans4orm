@@ -9,30 +9,36 @@ function OffersCards() {
             <h4>MONTHLY PACKAGE</h4>
             <button className="popular">Popular</button>
           </div>
-          <div className="price-container">
-            <h4>£29.00</h4>
-            <span>Per Month</span>
-          </div>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do enum
-            vulpur.
-          </p>
-          <h5>What you get!</h5>
+
           <div className="access-container">
+            <div className="price-container">
+              <h4>£29.00</h4>
+              <span>Per Month</span>
+            </div>
+            <span>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do
+              enum vulpur.
+            </span>
+            <h5>What you get!</h5>
             <div className="tick-container">
               <img src={tick} className="tick" alt="Tick Icon" />
+              <span>Access To 2 classes a month</span>
             </div>
             <div className="tick-container">
               <img src={tick} className="tick" alt="Tick Icon" />
+              <span>Access To 2 classes a month</span>
             </div>
             <div className="tick-container">
               <img src={tick} className="tick" alt="Tick Icon" />
+              <span>Access To 2 classes a month</span>
             </div>
             <div className="tick-container">
               <img src={tick} className="tick" alt="Tick Icon" />
+              <span>Access To 2 classes a month</span>
             </div>
             <div className="tick-container">
               <img src={tick} className="tick" alt="Tick Icon" />
+              <span>Access To 2 classes a month</span>
             </div>
           </div>
         </div>
