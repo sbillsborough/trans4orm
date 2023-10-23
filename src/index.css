@@ -548,3 +548,7 @@ button {
   height: 18px;
   font-family: "Satoshi", sans-serif;
 }
+
+.card-table tr {
+  margin: 30px auto;
+}
