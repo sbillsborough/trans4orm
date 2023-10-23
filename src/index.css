@@ -289,7 +289,6 @@ button {
   height: 540.95px;
   top: 2116px;
   left: 785.96px;
-  /* opacity: 60%; */
 }
 
 .pitch-container h3 {
@@ -334,7 +333,6 @@ button {
 .pitch-card p {
   width: 316px;
   height: 46px;
-  /* opacity: 70%; */
   font-family: "Satoshi", sans-serif;
   font-weight: 500;
   font-size: 0.9rem;
@@ -345,6 +343,7 @@ button {
 /* Offers Cards Section Styling */
 
 .offers-cards-container {
+  display: flex;
 }
 
 .offers-cards-40 {
@@ -355,4 +354,24 @@ button {
   border-radius: 32px;
   border: 1px solid #fff;
   background-image: url(./resources/img/OffersCards40.png);
+}
+
+.offers-cards-38 {
+  width: 427px;
+  height: 800px;
+  top: 3293px;
+  left: 505px;
+  border-radius: 32px;
+  border: 1px solid #fff;
+  background-image: url(./resources/img/OffersCards38.png);
+}
+
+.offers-cards-39 {
+  width: 427px;
+  height: 800px;
+  top: 3293px;
+  left: 948px;
+  border-radius: 32px;
+  border: 1px solid #fff;
+  background-image: url(./resources/img/OffersCards39.png);
 }
