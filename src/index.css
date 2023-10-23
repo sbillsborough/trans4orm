@@ -419,13 +419,14 @@ button {
 }
 
 .price-container {
-  position: absolute;
   display: flex;
   align-items: baseline;
   justify-content: flex-start;
   top: 3336px;
   left: 49px;
   gap: 10px;
+  width: 380px;
+  height: 81px;
 }
 
 .price-container h4 {
@@ -438,7 +439,30 @@ button {
   color: #fff;
 }
 
-.price-container span {
+.offers-cards-container h5 {
+  color: #fff;
+  font-size: 21.33px;
+  line-height: 23.46px;
+  font-weight: 500;
+  margin: 0;
+  padding: 20px 0 10px 0;
+  border-bottom: 1px solid #fff;
+  width: 380px;
+}
+
+.access-container {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 3317px;
+  left: 49px;
+  gap: 10px;
+}
+
+.access-container span {
+  color: #fff;
+  width: 380px;
+  height: 46px;
   font-family: "Satoshi", sans-serif;
   font-size: 15px;
   font-weight: 500;
@@ -448,48 +472,26 @@ button {
   opacity: 70%;
 }
 
-.offers-cards-40 p {
-  position: absolute;
-  width: 380px;
-  height: 46px;
-  top: 3417px;
-  left: 49px;
-  color: #fff;
-  font-family: "Satoshi", sans-serif;
-  opacity: 70%;
-  font-weight: 500;
-  font-size: 15px;
-}
-
-.offers-cards-40 h5 {
-  position: absolute;
-  top: 3467px;
-  left: 49px;
-  color: #fff;
-  font-size: 21.33px;
-  line-height: 23.46px;
-  font-weight: 500;
-}
-
-.access-container {
-  display: flex;
-  flex-direction: column;
-  position: absolute;
-  top: 3567px;
-  left: 49px;
-  gap: 40px;
-}
-
 .tick-container {
   display: flex;
   justify-content: flex-start;
-  align-items: center;
-  flex-direction: row;
-  height: 40px;
+  border-bottom: 0.5px solid #fff;
+  padding: 14px 0;
+  height: 30px;
   width: 380px;
+  gap: 8px;
 }
 
-.access-container .tick {
+.tick {
   width: 20px;
   height: 20px;
+}
+
+.tick-container span {
+  width: 208px;
+  height: 19px;
+  font-family: "Satoshi", sans-serif;
+  font-weight: 400px;
+  line-height: 19.2px;
+  color: #babdbf;
 }
