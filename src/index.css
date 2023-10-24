@@ -595,6 +595,26 @@ button {
   width: 697px;
 }
 
+.left-front-card {
+  position: absolute;
+  background-image: url(./resources/img/CardLeftFront.png);
+  background-repeat: no-repeat;
+  width: 597.52px;
+  height: 478.58px;
+  top: 4872px;
+  z-index: 2;
+}
+
+.left-rear-card {
+  position: absolute;
+  background-image: url(./resources/img/CardLeftRear.png);
+  background-repeat: no-repeat;
+  width: 597.52px;
+  height: 478.58px;
+  top: 4920px;
+  z-index: 1;
+}
+
 .rectangle-right {
   background-image: url(./resources/img/Mask-group-right.png);
   width: 677px;
