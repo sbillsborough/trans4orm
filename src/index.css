@@ -183,8 +183,7 @@ button {
 
 /* Intro Section Styling */
 
-.intro,
-.owntime {
+.intro {
   display: inline-flex;
   flex-direction: column;
   gap: 24px;
@@ -192,6 +191,17 @@ button {
   width: 100%;
   height: 365px;
   margin: 100px auto;
+  text-align: center;
+}
+
+.owntime {
+  display: inline-flex;
+  flex-direction: column;
+  gap: 24px;
+  align-items: center;
+  width: 100%;
+  height: 365px;
+  margin: 200px auto 0 auto;
   text-align: center;
 }
 
@@ -227,8 +237,8 @@ button {
   margin: 0 auto;
 }
 
-.intro p:nth-child(2),
-.owntime p:nth-child(2) {
+.intro span:nth-child(2),
+.owntime span:nth-child(2) {
   width: 665px;
   height: 140px;
   font-family: "Anton", sans-serif;
@@ -241,8 +251,12 @@ button {
   margin: 0 auto;
 }
 
-.intro p:nth-child(3),
-.owntime p:nth-child(3) {
+.owntime span:nth-child(2) {
+  height: 70px;
+}
+
+.intro span:nth-child(3),
+.owntime span:nth-child(3) {
   width: 570px;
   height: 29px;
   font-family: "Satoshi", sans-serif;
@@ -253,14 +267,19 @@ button {
   color: #fff;
 }
 
-.intro p:nth-child(4),
-.owntime p:nth-child(4) {
+.intro span:nth-child(4) {
   width: 570px;
   height: 44px;
   font-family: "Satoshi", sans-serif;
   line-height: 21.6px;
   margin: 0 auto;
   color: var(--paragraph);
+}
+
+.owntime button {
+  width: 199px;
+  height: 50px;
+  margin: 24px auto 0 auto;
 }
 
 /* Made Image Section */
@@ -551,4 +570,6 @@ button {
 
 .card-table tr {
   margin: 30px auto;
+  font-size: 1.45rem;
+  height: 28px;
 }

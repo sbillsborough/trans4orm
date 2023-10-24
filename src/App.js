@@ -21,6 +21,7 @@ function App() {
       <Pitch />
       <OwnTime />
       <OffersCards />
+      <OwnTime />
     </>
   );
 }
