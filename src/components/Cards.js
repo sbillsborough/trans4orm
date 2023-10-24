@@ -1,8 +1,9 @@
 function Cards() {
   return (
-    <>
-      <h1>hello world</h1>
-    </>
+    <div className="cards">
+      <div className="rectangle-left"></div>
+      <div className="rectangle-right"></div>
+    </div>
   );
 }
 

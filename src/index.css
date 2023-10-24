@@ -573,3 +573,22 @@ button {
   font-size: 1.45rem;
   height: 28px;
 }
+
+/* Cards Styling */
+
+.cards {
+  display: flex;
+  gap: 16px;
+}
+
+.rectangle-left {
+  background-image: url(./resources/img/Mask-group-left.png);
+  width: 697px;
+  height: 644px;
+}
+
+.rectangle-right {
+  background-image: url(./resources/img/Mask-group-right.png);
+  width: 677px;
+  height: 644px;
+}
