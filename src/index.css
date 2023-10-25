@@ -267,6 +267,10 @@ button {
   margin: 0 auto;
 }
 
+.intro span:nth-child(2) {
+  height: 140px;
+}
+
 .intro span:nth-child(3),
 .owntime span:nth-child(3),
 .owntimepackage span:nth-child(3) {
