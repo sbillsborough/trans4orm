@@ -201,7 +201,7 @@ button {
   align-items: center;
   width: 100%;
   height: 365px;
-  margin: 200px auto 0 auto;
+  margin: 130px auto 0 auto;
   text-align: center;
 }
 
@@ -406,7 +406,7 @@ button {
   position: absolute;
   width: 458.47px;
   height: 485.96px;
-  top: 3826.96px;
+  top: 3706.96px;
   left: -35px;
   background-image: url(./resources/img/Group10vectors.png);
   z-index: -1;
@@ -490,7 +490,7 @@ button {
   display: flex;
   flex-direction: column;
   position: absolute;
-  top: 3317px;
+  top: 3257px;
   left: 49px;
   gap: 10px;
 }
@@ -545,7 +545,7 @@ button {
   align-items: center;
   gap: 24px;
   position: absolute;
-  top: 3962px;
+  top: 3892px;
   left: 62px;
 }
 
@@ -601,8 +601,8 @@ button {
   background-repeat: no-repeat;
   width: 597.52px;
   height: 478.58px;
-  top: 4872px;
-  z-index: 2;
+  top: 4732px;
+  z-index: 1;
 }
 
 .left-rear-card {
@@ -611,11 +611,33 @@ button {
   background-repeat: no-repeat;
   width: 597.52px;
   height: 478.58px;
-  top: 4920px;
-  z-index: 1;
+  top: 4780px;
 }
 
 .rectangle-right {
   background-image: url(./resources/img/Mask-group-right.png);
   width: 677px;
+}
+
+.right-front-card {
+  position: absolute;
+  background-image: url(./resources/img/CardRightFront.png);
+  background-repeat: no-repeat;
+
+  width: 597.52px;
+  height: 549.58px;
+  top: 4714px;
+  left: 977px;
+  z-index: -1;
+}
+
+.right-rear-card {
+  position: absolute;
+  background-image: url(./resources/img/CardRightRear.png);
+  background-repeat: no-repeat;
+  width: 597.52px;
+  height: 478.58px;
+  top: 4814px;
+  left: 928px;
+  z-index: -2;
 }
