@@ -602,7 +602,7 @@ button {
   width: 597.52px;
   height: 478.58px;
   top: 4732px;
-  z-index: 2;
+  z-index: 1;
 }
 
 .left-rear-card {
@@ -612,10 +612,32 @@ button {
   width: 597.52px;
   height: 478.58px;
   top: 4780px;
-  z-index: 1;
 }
 
 .rectangle-right {
   background-image: url(./resources/img/Mask-group-right.png);
   width: 677px;
+}
+
+.right-front-card {
+  position: absolute;
+  background-image: url(./resources/img/CardRightFront.png);
+  background-repeat: no-repeat;
+
+  width: 597.52px;
+  height: 549.58px;
+  top: 4714px;
+  left: 977px;
+  z-index: -1;
+}
+
+.right-rear-card {
+  position: absolute;
+  background-image: url(./resources/img/CardRightRear.png);
+  background-repeat: no-repeat;
+  width: 597.52px;
+  height: 478.58px;
+  top: 4814px;
+  left: 928px;
+  z-index: -2;
 }
