@@ -601,7 +601,7 @@ button {
   background-repeat: no-repeat;
   width: 597.52px;
   height: 478.58px;
-  top: 4732px;
+  top: 4733px;
   z-index: 1;
 }
 
@@ -609,9 +609,10 @@ button {
   position: absolute;
   background-image: url(./resources/img/CardLeftRear.png);
   background-repeat: no-repeat;
+  border-bottom-left-radius: 47px;
   width: 597.52px;
-  height: 478.58px;
-  top: 4780px;
+  height: 429.58px;
+  top: 4781px;
 }
 
 .rectangle-right {
@@ -623,10 +624,10 @@ button {
   position: absolute;
   background-image: url(./resources/img/CardRightFront.png);
   background-repeat: no-repeat;
-
-  width: 597.52px;
-  height: 549.58px;
-  top: 4714px;
+  border-bottom-right-radius: 47px;
+  width: 437.52px;
+  height: 494.58px;
+  top: 4716px;
   left: 977px;
   z-index: -1;
 }
@@ -637,7 +638,7 @@ button {
   background-repeat: no-repeat;
   width: 597.52px;
   height: 478.58px;
-  top: 4814px;
+  top: 4815px;
   left: 928px;
   z-index: -2;
 }
