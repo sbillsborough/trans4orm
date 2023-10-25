@@ -587,7 +587,7 @@ button {
 .rectangle-right {
   height: 644px;
   border: 1px solid hsl(0, 0%, 25%);
-  border-radius: 47px;
+  border-radius: 49px;
 }
 
 .rectangle-left {
@@ -609,7 +609,7 @@ button {
   position: absolute;
   background-image: url(./resources/img/CardLeftRear.png);
   background-repeat: no-repeat;
-  border-bottom-left-radius: 47px;
+  border-bottom-left-radius: 49px;
   width: 597.52px;
   height: 429.58px;
   top: 4781px;
@@ -624,7 +624,7 @@ button {
   position: absolute;
   background-image: url(./resources/img/CardRightFront.png);
   background-repeat: no-repeat;
-  border-bottom-right-radius: 47px;
+  border-bottom-right-radius: 49px;
   width: 437.52px;
   height: 494.58px;
   top: 4716px;
