@@ -195,7 +195,8 @@ button {
   text-align: center;
 }
 
-.owntime {
+.owntime,
+.owntimepackage {
   display: inline-flex;
   flex-direction: column;
   gap: 24px;
@@ -203,6 +204,17 @@ button {
   width: 100%;
   height: 365px;
   margin: 130px auto 0 auto;
+  text-align: center;
+}
+
+.frequently-asked {
+  display: inline-flex;
+  flex-direction: column;
+  gap: 24px;
+  align-items: center;
+  width: 100%;
+  height: 365px;
+  margin: 60px auto;
   text-align: center;
 }
 
@@ -229,7 +241,8 @@ button {
 }
 
 .intro h5,
-.owntime h5 {
+.owntime h5,
+.owntimepackage h5 {
   width: 191px;
   height: 22px;
   font-weight: 500;
@@ -239,33 +252,31 @@ button {
 }
 
 .intro span:nth-child(2),
-.owntime span:nth-child(2) {
+.owntime span:nth-child(2),
+.owntimepackage span:nth-child(2) {
   width: 665px;
   height: 140px;
   font-family: "Anton", sans-serif;
   font-weight: 400;
   font-size: 60px;
   line-height: 70px;
+  height: 70px;
   color: #fff;
   letter-spacing: 2.4px;
   text-transform: uppercase;
   margin: 0 auto;
 }
 
-.owntime span:nth-child(2) {
-  height: 70px;
-}
-
 .intro span:nth-child(3),
-.owntime span:nth-child(3) {
+.owntime span:nth-child(3),
+.owntimepackage span:nth-child(3) {
   width: 570px;
   height: 29px;
   font-family: "Satoshi", sans-serif;
   font-weight: 500;
-  font-size: 1.3rem;
   line-height: 28.79px;
   margin: 0 auto;
-  color: #fff;
+  color: hsl(0, 0%, 80%);
 }
 
 .intro span:nth-child(4) {
@@ -277,10 +288,45 @@ button {
   color: var(--paragraph);
 }
 
-.owntime button {
+.owntime button,
+.owntimepackage button {
   width: 199px;
   height: 50px;
   margin: 24px auto 0 auto;
+}
+
+.frequently-asked {
+  margin: 100px auto;
+}
+
+.frequently-asked h5 {
+  width: 41px;
+  height: 22px;
+  font-family: "Satoshi", sans-serif;
+  font-weight: 500;
+  line-height: 21.6px;
+  color: var(--achieve-slogan);
+  margin: 0 auto;
+}
+
+.frequently-asked span:nth-child(2) {
+  width: 621px;
+  height: 140px;
+  font-family: "Anton", sans-serif;
+  font-weight: 400;
+  line-height: 70px;
+  font-size: 3.75rem;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+.frequently-asked span:nth-child(3) {
+  width: 476px;
+  height: 44px;
+  font-family: "Satoshi", sans-serif;
+  font-weight: 500;
+  line-height: 21.6px;
+  color: hsl(0, 0%, 80%);
 }
 
 /* Made Image Section */

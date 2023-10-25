@@ -5,9 +5,11 @@ import Hero from "./components/Hero";
 import Intro from "./components/Intro";
 import MadeImg from "./components/MadeImg";
 import Pitch from "./components/Pitch";
-import OwnTime from "./components/OwnTime";
+import OwnTimePackage from "./components/OwnTimePackage";
+import OwnTimeOffer from "./components/OwnTimeOffer";
 import OffersCards from "./components/offersCards";
 import Cards from "./components/Cards";
+import FrequentlyAsked from "./components/FrequentlyAsked";
 
 function App() {
   return (
@@ -20,10 +22,11 @@ function App() {
       <Intro />
       <MadeImg />
       <Pitch />
-      <OwnTime />
+      <OwnTimePackage />
       <OffersCards />
-      <OwnTime />
+      <OwnTimeOffer />
       <Cards />
+      <FrequentlyAsked />
     </>
   );
 }
