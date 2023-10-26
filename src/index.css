@@ -843,9 +843,28 @@ button {
 
 /* Footer Top Styling */
 
-.footer-rectangle {
+.footer-container {
   background-image: url(./resources/img/footer-rectangle-27.png);
   width: 1440px;
   height: 595px;
   border: 0 0 1px 0;
+}
+
+footer .top {
+  position: absolute;
+  top: 7168px;
+  left: 40px;
+  width: 1360px;
+  height: 374px;
+  border: 1px solid hsl(0, 0%, 30%);
+  border-radius: 16px;
+  background: rgba(255, 255, 255, 0.05);
+}
+
+footer .bottom {
+  position: absolute;
+  top: 7610px;
+  width: 1440px;
+  height: 475px;
+  background: var(--button);
 }
