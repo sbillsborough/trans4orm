@@ -862,9 +862,36 @@ footer .top {
 }
 
 footer .bottom {
+  display: flex;
   position: absolute;
   top: 7610px;
   width: 1440px;
   height: 475px;
   background: var(--button);
+}
+
+footer .bottom-text {
+  display: flex;
+  flex-direction: column;
+  margin: 42px 0 43px 30px;
+  width: 798px;
+  height: 390px;
+}
+
+footer .bottom-text span {
+  font-family: "Anton", sans-serif;
+  font-weight: 500;
+  font-size: 6.2rem;
+  line-height: 130px;
+
+  text-transform: uppercase;
+  color: #fff;
+}
+
+footer .bottom button {
+  background: #fff;
+  color: var(--button);
+  margin: 42px 40px auto auto;
+  font-family: "Satoshi", sans-serif;
+  font-weight: 700;
 }
