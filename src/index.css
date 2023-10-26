@@ -806,3 +806,37 @@ button {
   border-radius: 44px;
   padding: 16px 15px;
 }
+
+/* Four Card Panel Styling */
+
+.four-card-container {
+  display: flex;
+  width: 1313px;
+  height: 550px;
+  gap: 16px;
+  margin: 50px auto;
+}
+
+.left-card {
+  background-image: url(./resources/img/Rectangle30.png);
+  width: 316px;
+  height: 550px;
+}
+
+.left-center-card {
+  background-image: url(./resources/img/Rectangle31.png);
+  width: 316px;
+  height: 550px;
+}
+
+.right-center-card {
+  background-image: url(./resources/img/Rectangle32.png);
+  width: 316px;
+  height: 550px;
+}
+
+.right-card {
+  background-image: url(./resources/img/Rectangle33.png);
+  width: 316px;
+  height: 550px;
+}
