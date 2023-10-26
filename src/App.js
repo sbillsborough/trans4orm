@@ -12,6 +12,7 @@ import Cards from "./components/Cards";
 import FrequentlyAsked from "./components/FrequentlyAsked";
 import DropDown from "./components/DropDown";
 import FitnessLoop from "./components/FitnessLoop";
+import FourCardPanel from "./components/FourCardPanel";
 
 function App() {
   return (
@@ -31,6 +32,7 @@ function App() {
       <FrequentlyAsked />
       <DropDown />
       <FitnessLoop />
+      <FourCardPanel />
     </>
   );
 }
