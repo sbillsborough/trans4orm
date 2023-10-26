@@ -17,6 +17,7 @@ body {
   padding: 0;
   width: 1440px;
   height: 100%;
+
   font-family: sans-serif;
   background: var(--main-background);
 }
@@ -715,7 +716,7 @@ button {
   position: absolute;
   background-image: url(./resources/img/CardRightRear.png);
   background-repeat: no-repeat;
-  width: 597.52px;
+  width: 486.52px;
   height: 478.58px;
   top: 4815px;
   left: 928px;
