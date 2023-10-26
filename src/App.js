@@ -10,6 +10,7 @@ import OwnTimeOffer from "./components/OwnTimeOffer";
 import OffersCards from "./components/offersCards";
 import Cards from "./components/Cards";
 import FrequentlyAsked from "./components/FrequentlyAsked";
+import DropDown from "./components/DropDown";
 
 function App() {
   return (
@@ -27,6 +28,7 @@ function App() {
       <OwnTimeOffer />
       <Cards />
       <FrequentlyAsked />
+      <DropDown />
     </>
   );
 }
