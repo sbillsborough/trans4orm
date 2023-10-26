@@ -710,3 +710,59 @@ button {
   left: 928px;
   z-index: -2;
 }
+
+/* Drop Down Styling */
+
+.drop-down-container {
+  margin: 0 auto;
+  width: 1094px;
+  height: 408px;
+}
+
+.drop-down-box {
+  width: 1094px;
+  height: 95px;
+  border-radius: 16px;
+  border: 1px solid hsl(0, 0%, 30%);
+  padding: 0 40px;
+}
+
+.drop-down-box p {
+  width: 1014px;
+  margin: 32px auto 0 auto;
+  color: #fff;
+  font-family: "Satoshi", sans-serif;
+  font-weight: 400;
+  line-height: 25px;
+}
+
+.active {
+  height: 188px;
+  padding: 24px 0;
+  background: rgba(255, 255, 255, 0.05);
+}
+
+.q-button {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 1014px;
+  margin: 0 auto;
+}
+
+.q-button span {
+  color: var(--button);
+  font-family: "Satoshi", sans-serif;
+  font-size: 21px;
+  font-weight: 500;
+  line-height: 25.2px;
+}
+
+.up-arrow-icon {
+  background-image: url(./resources/img/up-arrow-icon.png);
+  background-repeat: no-repeat;
+  width: 20px;
+  height: 20px;
+  border-radius: 44px;
+  padding: 16px 15px;
+}
