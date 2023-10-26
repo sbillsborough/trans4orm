@@ -1,5 +1,6 @@
 /* Imported fonts */
 @import url("https://fonts.googleapis.com/css2?family=Anton&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
 @import url("https://fonts.cdnfonts.com/css/satoshi");
 
 /* CSS RESETS / GLOBAL STYLING */
@@ -35,6 +36,7 @@ header {
 table {
   display: flex;
   justify-content: space-between;
+  font-family: "Inter", sans-serif;
 }
 
 table th {
