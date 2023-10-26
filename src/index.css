@@ -37,6 +37,7 @@ table {
   display: flex;
   justify-content: space-between;
   font-family: "Inter", sans-serif;
+  font-size: 0.9rem;
 }
 
 table th {
