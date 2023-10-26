@@ -840,3 +840,12 @@ button {
   width: 316px;
   height: 550px;
 }
+
+/* Footer Top Styling */
+
+.footer-rectangle {
+  background-image: url(./resources/img/footer-rectangle-27.png);
+  width: 1440px;
+  height: 595px;
+  border: 0 0 1px 0;
+}
