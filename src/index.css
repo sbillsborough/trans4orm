@@ -219,6 +219,10 @@ button {
   text-align: center;
 }
 
+.fitnessloop {
+  height: 182px;
+}
+
 .vector-img-group3 {
   position: absolute;
   background-image: url(./resources/img/Group3vectors.png);
