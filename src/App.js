@@ -11,6 +11,7 @@ import OffersCards from "./components/offersCards";
 import Cards from "./components/Cards";
 import FrequentlyAsked from "./components/FrequentlyAsked";
 import DropDown from "./components/DropDown";
+import FitnessLoop from "./components/FitnessLoop";
 
 function App() {
   return (
@@ -29,6 +30,7 @@ function App() {
       <Cards />
       <FrequentlyAsked />
       <DropDown />
+      <FitnessLoop />
     </>
   );
 }

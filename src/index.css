@@ -207,14 +207,15 @@ button {
   text-align: center;
 }
 
-.frequently-asked {
+.frequently-asked,
+.fitnessloop {
   display: inline-flex;
   flex-direction: column;
   gap: 24px;
   align-items: center;
   width: 100%;
   height: 365px;
-
+  margin: 100px auto 0 auto;
   text-align: center;
 }
 
@@ -242,7 +243,8 @@ button {
 
 .intro h5,
 .owntime h5,
-.owntimepackage h5 {
+.owntimepackage h5,
+.fitnessloop h5 {
   width: 191px;
   height: 22px;
   font-weight: 500;
@@ -253,7 +255,8 @@ button {
 
 .intro span:nth-child(2),
 .owntime span:nth-child(2),
-.owntimepackage span:nth-child(2) {
+.owntimepackage span:nth-child(2),
+.fitnessloop span:nth-child(2) {
   width: 665px;
   height: 140px;
   font-family: "Anton", sans-serif;
@@ -299,8 +302,8 @@ button {
   margin: 24px auto 0 auto;
 }
 
-.frequently-asked {
-  margin: 100px auto 0 auto;
+.owntimepackage button {
+  width: 167px;
 }
 
 .frequently-asked h5 {
@@ -331,6 +334,10 @@ button {
   font-weight: 500;
   line-height: 21.6px;
   color: hsl(0, 0%, 80%);
+}
+
+.fitnessloop button {
+  width: 203px;
 }
 
 /* Made Image Section */
